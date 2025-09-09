@@ -1,75 +1,53 @@
-.top {
+<!DOCTYPE html>
+<html lang="en">
 
-    display: inline-block;
-    border: 1px;
-    width: 50vw;
-    height: 50vh;
-    background-color: rgb(117, 223, 223);
-    margin: 5px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="sytlesheet" href="styles.css">
 
-.block {
+</head>
 
-    display: inline-block;
-    border: 1px;
-    background-color: rgb(34, 59, 59);
-    width: 50vw;
-    height: 50vh;
-    margin: 5px;
+<body>
 
-}
+    <div class="top">
+        <header>
+            <h1>
+                <strong>RESPONSIVE WEBSITE</strong>
+            </h1>
+        </header>
 
-.news {
+        <div class="block">
+            <nav>
+                <p>navigation bar</p>
+            </nav>
+        </div>
 
-    display: inline-block;
-    background-color: rgb(94, 94, 47);
-    border: 1px;
-    width: 20vw;
-    height: 20vh;
-    margin: 5px;
+        <div class="news">
+            <article>
+                <aside>
+                    <p>Aside</p>
+                </aside>
+            </article>
+        </div>
 
-}
+        <div class="section">
+            <section>
+                <section>
+                    <p>second section</p>
+                </section>
+            </section>
+        </div>
 
-.aside {
+        <div>
+            <footer>
+                <p>footer</p>
+            </footer>
+        </div>
+    </div>
 
-    display: inline-block;
-    background-color: rgb(224, 177, 114);
-    border: 1px;
-    width: 20vw;
-    height: 20vh;
-    margin: 5px;
-}
+</body>
 
-.section {
 
-    display: inline-block;
-    background-color: rgb(52, 206, 147);
-    border: 1px;
-    width: 20vw;
-    height: 20vh;
-    margin: 5px;
-}
-
-.footer {
-
-    display: inline-block;
-    background-color: rgb(168, 168, 83);
-    border: 1px;
-    width: 50vw;
-    height: 25vh;
-    margin: 5px;
-}
-
-@media screen {
-
-    .top,
-    .aside,
-    .block,
-    .footer,
-    .news,
-    .section {
-        width: 30vw;
-        height: 30vw;
-    }
-
-}
+</html>
